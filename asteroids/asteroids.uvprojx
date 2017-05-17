@@ -10,7 +10,7 @@
       <TargetName>NXP LPC4088</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060183::V5.06 update 2 (build 183)::ARMCC</pCCUsed>
+      <pCCUsed>5060300::V5.06 update 3 (build 300)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>LPC4088FET208</Device>
@@ -378,54 +378,49 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
-              <FileName>utils.cpp</FileName>
+              <FileName>all.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\src\utils.cpp</FilePath>
+              <FilePath>.\src\all.cpp</FilePath>
             </File>
             <File>
-              <FileName>utils.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\src\utils.h</FilePath>
-            </File>
-            <File>
-              <FileName>controller.cpp</FileName>
+              <FileName>controls.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\src\controller.cpp</FilePath>
+              <FilePath>.\src\controls.cpp</FilePath>
             </File>
             <File>
-              <FileName>controller.h</FileName>
+              <FileName>controls.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\src\controller.h</FilePath>
+              <FilePath>.\src\controls.h</FilePath>
             </File>
             <File>
-              <FileName>model.cpp</FileName>
+              <FileName>utilities.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\src\model.cpp</FilePath>
+              <FilePath>.\src\utilities.cpp</FilePath>
             </File>
             <File>
-              <FileName>model.h</FileName>
+              <FileName>utilities.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\src\model.h</FilePath>
+              <FilePath>.\src\utilities.h</FilePath>
             </File>
             <File>
-              <FileName>view.cpp</FileName>
+              <FileName>physics.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\src\view.cpp</FilePath>
+              <FilePath>.\src\physics.cpp</FilePath>
             </File>
             <File>
-              <FileName>view.h</FileName>
+              <FileName>physics.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\src\view.h</FilePath>
+              <FilePath>.\src\physics.h</FilePath>
             </File>
             <File>
-              <FileName>asteroids.cpp</FileName>
+              <FileName>drawing.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\src\asteroids.cpp</FilePath>
+              <FilePath>.\src\drawing.cpp</FilePath>
             </File>
             <File>
-              <FileName>asteroids.h</FileName>
+              <FileName>drawing.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\src\asteroids.h</FilePath>
+              <FilePath>.\src\drawing.h</FilePath>
             </File>
           </Files>
         </Group>
